@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import { Home, Archive, Trash, Login, Signup } from "../pages/index"
+import { Home, Archive, Trash, Login, Signup } from "../pages/index";
 
  function Router() {
     return (
