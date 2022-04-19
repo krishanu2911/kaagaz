@@ -1,10 +1,11 @@
 import "./App.css";
-import logo from "./logo.png";
+import { Home } from "./pages";
+import Router from "./routes/Router";
 
 function App() {
   return (
     <div className="App">
-      <h1>Kaagaz</h1>
+      <Router />
     </div>
   );
 }
