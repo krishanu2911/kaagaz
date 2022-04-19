@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-import { Home, Archive, Trash } from "../pages/index"
+import { Home, Archive, Trash, Login, Signup } from "../pages/index"
 
  function Router() {
     return (
@@ -8,6 +8,8 @@ import { Home, Archive, Trash } from "../pages/index"
             <Route path='/' element={<Home />} />
             <Route path='/archive' element={<Archive />} />
             <Route path='/trash' element={<Trash />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/signup' element={<Signup />} />
         </Routes>
     )
 }
