@@ -1,18 +1,50 @@
 .navbar{
-    padding: 0 2rem;
+    padding:  2rem 1rem;
     display: flex;
     position: fixed;
-    top: 3rem;
+    top: 6rem;
     flex-direction: column;
+    gap: 0.5rem;
+    width: 15rem;
+    margin: 0.5rem;
+    background-color: rgb(16, 40, 76);
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+.text{
+    font-size: 1.4rem;
+}
+.link{
+    color: white;
+    border-radius: 1rem;
     gap: 1rem;
-    border: 2px solid red;
+    padding: 0.5rem;
+    align-items: center;
+}
+.link:hover{
+    background-color: wheat;
+    color: gray;
 }
 @media only screen and (max-width: 768px) {
+    .navbar::-webkit-scrollbar {
+        display: none; 
+   }
+   .hide{
+       display: none;
+   }
+   .link{
+       flex-direction: column;
+   }
     .navbar{
+        overflow-x: scroll;
         width: 100%;
         flex-direction: row;
+        justify-content: space-around;
         position: fixed;
         top: unset;
-        bottom: 0; 
+        bottom: 0;
+        margin: unset;
+        border-radius: unset;
+        padding: 1rem;
     }
   }

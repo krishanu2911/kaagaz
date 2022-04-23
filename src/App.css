@@ -2,9 +2,14 @@
 .App{
     width: 100%;
 }
+body{
+    background-color: #f6f6eb;
+}
+.header-img{
+    width: 20rem;
+}
 .home{
-    margin-top: 3rem;
-    border: 2px solid red;
+    margin-top: 6rem;
     height: 100vh;
 }
  body::-webkit-scrollbar {
