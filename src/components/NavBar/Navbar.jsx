@@ -10,11 +10,11 @@ function Navbar() {
         <h1 className={`${styles.hide} ${styles.text}`}>Home</h1>
       </Link>
       <Link className={`${styles.link} maple-flex`} to="/archive">
-        <FaArchive className="txt-lg" />
+        <FaArchive className="txt-xl" />
         <h1 className={`${styles.hide} ${styles.text}`}>Archive</h1>
       </Link>
       <Link className={`${styles.link} maple-flex`} to="/trash">
-        <FaTrash className="txt-lg" />
+        <FaTrash className="txt-xl" />
         <h1 className={`${styles.hide} ${styles.text}`}>Trash</h1>
       </Link>
     </nav>
