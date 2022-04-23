@@ -28,9 +28,6 @@
    .hide{
        display: none;
    }
-   .link{
-       flex-direction: column;
-   }
     .navbar{
         overflow-x: scroll;
         width: 100%;
