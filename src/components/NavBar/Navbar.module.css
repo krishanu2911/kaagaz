@@ -21,10 +21,6 @@
     padding: 0.5rem;
     align-items: center;
 }
-.link:hover{
-    background-color: wheat;
-    color: gray;
-}
 @media only screen and (max-width: 768px) {
     .navbar::-webkit-scrollbar {
         display: none; 

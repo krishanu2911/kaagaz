@@ -3,12 +3,18 @@
     position: fixed;
     top: 0;
     background-color: rgb(16, 40, 75);
-    align-items: center;
-    /* background-color: #10284b; */
     width: 100%;
     color: white;
     padding: 1rem;
+    justify-content: space-between;
+}
+.aligncenter{
+ align-items: center;
 }
 .title{
     font-family: 'Kaushan Script', cursive;
 }
+.toggleicon:hover{
+    color: gray;
+}
+/* background-color: #10284b; */ 
