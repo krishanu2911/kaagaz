@@ -1,1 +1,21 @@
-
+@import url("https://maple-ui.netlify.app/CSS/base.css");
+.App{
+    width: 100%;
+}
+body{
+    background-color: #f6f6eb;
+}
+.header-img{
+    width: 25rem;
+}
+.home{
+    margin-top: 6rem;
+    height: 100vh;
+}
+ body::-webkit-scrollbar {
+     display: none; 
+} 
+/* util class */
+.gap{
+    gap: 1rem;
+}

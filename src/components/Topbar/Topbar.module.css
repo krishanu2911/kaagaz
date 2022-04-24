@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;600;700;900&family=Poppins:wght@300;400;700&display=swap');
+.topbar{
+    position: fixed;
+    top: 0;
+    background-color: rgb(16, 40, 75);
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.aligncenter{
+ align-items: center;
+}
+.title{
+    font-family: 'Kaushan Script', cursive;
+}
+.toggleicon:hover{
+    color: gray;
+}

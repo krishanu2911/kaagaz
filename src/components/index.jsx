@@ -1,4 +1,6 @@
-import Navbar from "./Navbar";
+import Navbar from "./NavBar/Navbar";
+import Topbar from "./Topbar/Topbar";
 export {
-    Navbar
+    Navbar,
+    Topbar
 }
